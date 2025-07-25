@@ -9,7 +9,7 @@ TARGET_DIR = os.path.join(os.environ["USERPROFILE"], "Documents")
 KEY = b"SuperSecureKey123456789012345678"
 
 # Extensão dos arquivos criptografados
-ENCRYPTED_EXTENSION = ".quodlocked"
+ENCRYPTED_EXTENSION = ".locked"
 
 def decrypt_file(filepath):
     with open(filepath, 'rb') as f:
