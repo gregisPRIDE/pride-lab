@@ -12,7 +12,7 @@ KEY = b"SuperSecureKey123456789012345678"
 EXTENSIONS = [".txt", ".docx", ".xlsx", ".csv", ".pdf"]
 
 # Extensão usada para arquivos criptografados
-ENCRYPTED_EXTENSION = ".quodlocked"
+ENCRYPTED_EXTENSION = ".locked"
 
 def print_banner():
     print("=== Simulação de Ransomware por PRIDE Security ===\n")
